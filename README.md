@@ -1,0 +1,2 @@
+# AutoThinkPHP
+通过mysql数据库自动生成ThinkPHP项目
