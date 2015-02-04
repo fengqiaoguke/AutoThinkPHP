@@ -3,47 +3,10 @@ namespace Home\Model;
 
 use Think\Model;
 
-class ToolModel extends Model
+class AwsQuestionCommentsModel extends Model
 {
 
-    public function run()
-    {
-        echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style>.success{color:green;}.error{color:red;}</style>';
-        $tables = $this->_listTable(); 
-        foreach ($tables as $table) {
-            $this->_makeModel($table);
-        }
-    }
-
-    private function _listTable()
-    {
-        $sql = "show tables";
-        $rs = $this->query($sql);
-        foreach ($rs as $v) {
-            $tables[] = $v['Tables_in_' . C('DB_NAME')];
-        }
-        return $tables;
-    }
-
-    private function _makeModel($tab)
-    {
-        if (! $tab) {
-            $this->_msg($tab . '不存在,跳过!');
-            return false;
-        }
-        $table = str_replace(C('DB_PREFIX'),'',strtolower($tab));
-        $table = preg_replace('/_([a-z])/e', "strtoupper($1)", $table); 
-
-        $table = ucfirst($table);
-        $context = '<?php
-namespace Home\Model;
-
-use Think\Model;
-
-class ' . $table . 'Model extends Model
-{
-
-    protected $trueTableName = "' . strtolower($tab) . '";
+    protected $trueTableName = "aws_question_comments";
 
     /**
      * 搜索
@@ -196,37 +159,4 @@ class ' . $table . 'Model extends Model
 }
         
             
-    ';
-        $filepath = '/Home/Model/' . $table . 'Model.class.php';
-        $this->_build($filepath, $context);
-    }
-
-    private function _build($filepath, $context)
-    {
-        $filepath = APP_PATH . '/' . $filepath;
-        $filepath = str_replace("//", "/", $filepath);
-        if (! file_exists(dirname($filepath))) {
-            $this->_mkdir(dirname($filepath));
-        }
-        if (file_exists($filepath)) {
-            $this->_msg($filepath . '已存在,跳过!','error');
-        } else {
-            file_put_contents($filepath, $context);
-            $this->_msg($filepath.'生成成功!','success');
-        }
-    }
-
-    private function _msg($msg,$type='')
-    {
-        echo "<p class='{$type}'>".$msg."</p>";
-    }
-
-    private function _mkdir($dir, $mode = 0777)
-    {
-        if (is_dir($dir) || mkdir($dir, $mode))
-            return true;
-        if (! $this->_mkdir(dirname($dir), $mode))
-            return false;
-        return mkdir($dir, $mode);
-    }
-}
+    
