@@ -1,254 +1,404 @@
-[ 2015-02-04T17:19:32+08:00 ] 127.0.0.1 /
+[ 2015-02-04T17:25:37+08:00 ] 127.0.0.1 /
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
-SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001593s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001662s ]
 ERR: 1146:Table 'allergan.kj_tool' doesn't exist
  [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
-SQL: show tables [ RunTime:0.002760s ]
-NOTIC: [8] Use of undefined constant l - assumed 'l' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant n - assumed 'n' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant b - assumed 'b' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant s - assumed 's' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant d - assumed 'd' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant v - assumed 'v' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant v - assumed 'v' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant d - assumed 'd' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant e - assumed 'e' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant e - assumed 'e' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant e - assumed 'e' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant e - assumed 'e' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant e - assumed 'e' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant e - assumed 'e' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant f - assumed 'f' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant f - assumed 'f' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant f - assumed 'f' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant f - assumed 'f' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant g - assumed 'g' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant l - assumed 'l' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant d - assumed 'd' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant l - assumed 'l' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant j - assumed 'j' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant q - assumed 'q' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant n - assumed 'n' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant n - assumed 'n' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant n - assumed 'n' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant d - assumed 'd' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant q - assumed 'q' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant q - assumed 'q' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant q - assumed 'q' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant f - assumed 'f' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant q - assumed 'q' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant q - assumed 'q' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant q - assumed 'q' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant r - assumed 'r' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant r - assumed 'r' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant l - assumed 'l' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant r - assumed 'r' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant r - assumed 'r' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant r - assumed 'r' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant r - assumed 'r' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant s - assumed 's' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant s - assumed 's' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant s - assumed 's' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant s - assumed 's' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant f - assumed 'f' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant r - assumed 'r' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant h - assumed 'h' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant h - assumed 'h' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant d - assumed 'd' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant h - assumed 'h' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant f - assumed 'f' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant f - assumed 'f' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant g - assumed 'g' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant n - assumed 'n' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant s - assumed 's' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant o - assumed 'o' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant q - assumed 'q' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant s - assumed 's' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant w - assumed 'w' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant v - assumed 'v' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant w - assumed 'w' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant l - assumed 'l' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant w - assumed 'w' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant w - assumed 'w' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant r - assumed 'r' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant r - assumed 'r' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant w - assumed 'w' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant e - assumed 'e' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant o - assumed 'o' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant o - assumed 'o' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant l - assumed 'l' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant q - assumed 'q' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant v - assumed 'v' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant v - assumed 'v' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant o - assumed 'o' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant o - assumed 'o' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant o - assumed 'o' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant f - assumed 'f' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant r - assumed 'r' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant u - assumed 'u' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant v - assumed 'v' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant a - assumed 'a' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant b - assumed 'b' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant d - assumed 'd' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant f - assumed 'f' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant f - assumed 'f' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant f - assumed 'f' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant n - assumed 'n' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant n - assumed 'n' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant i - assumed 'i' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant l - assumed 'l' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant m - assumed 'm' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant p - assumed 'p' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant s - assumed 's' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant s - assumed 's' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant v - assumed 'v' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant h - assumed 'h' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant c - assumed 'c' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant r - assumed 'r' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant n - assumed 'n' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant n - assumed 'n' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant o - assumed 'o' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant l - assumed 'l' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant s - assumed 's' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant l - assumed 'l' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant l - assumed 'l' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant s - assumed 's' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
-NOTIC: [8] Use of undefined constant t - assumed 't' D:\WWW\AutoThinkPHP\Home\Model\ToolModel.class.php(35) : regexp code 第 1 行.
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2015-02-04T17:28:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001551s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2015-02-04T17:31:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+ERR: Think\Controller:REQUEST_METHOD方法不存在！
+
+[ 2015-02-04T17:31:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Undefined index: GET D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 12 行.
+
+[ 2015-02-04T17:32:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001550s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-02-04T17:32:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.000842s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2015-02-04T17:32:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.002126s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2015-02-04T17:32:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001626s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2015-02-04T17:34:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001418s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2015-02-04T17:36:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001419s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2015-02-04T17:37:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001575s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2015-02-04T17:37:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001530s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-02-04T17:38:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.000842s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2015-02-04T17:38:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001559s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2015-02-04T17:38:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.000858s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2015-02-04T17:38:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.000788s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2015-02-04T17:38:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001240s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2015-02-04T17:38:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.000832s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2015-02-04T17:38:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001535s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2015-02-04T17:38:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001532s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2015-02-04T17:38:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::GET() should be compatible with Think\Controller::get($name = '') D:\WWW\AutoThinkPHP\Home\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001532s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2015-02-04T17:40:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001487s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2015-02-04T17:40:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001511s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2015-02-04T17:40:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.000772s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2015-02-04T17:40:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.000742s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2015-02-04T17:40:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+
+[ 2015-02-04T17:41:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.001503s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2015-02-04T17:41:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.000793s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2015-02-04T17:41:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `kj_tool` [ RunTime:0.000774s ]
+ERR: 1146:Table 'allergan.kj_tool' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kj_tool`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
 
